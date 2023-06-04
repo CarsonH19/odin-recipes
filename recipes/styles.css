@@ -1,24 +1,75 @@
-
-
-
-/* Beholder */
-.beholder_img {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    margin-top: -150px;
+    background-color: burlywood;
+  }
+  
+  .h1 {
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+  }
+  
+  .dragon_img {
     width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
 
-}
-
-/* Dragon */
-
-.dragon_img {
+  .beholder_img {
     width: 300px;
-
-}
-
-
-/* Tarrasque */
-
-.tarrasque_img {
+    display: block;
+    margin: 0 auto;
+  }
+  .tarrasque_img {
     width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
 
-}
+  p {
+    margin-top: -10px;
+    width: 700px;
+    font-size: 20px;  
+  }
+  
+  ul {
+    margin-top: -10px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-weight:bold;
+    color: red; 
+  }
 
+  ol {
+    margin-top: -10px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  ol li {
+    margin-bottom: 10px;
+    text-align: center;
+    color: black; 
+    width: 700px
+
+  }
+  
+  a {
+    color: black; /* Set the desired color value */
+    text-decoration:none; /* Optional: Removes underline from links */
+  }
+  
+  a:hover {
+    color: red; /* Set the desired color value for hover state */
+  }

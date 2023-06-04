@@ -1,29 +1,43 @@
-/* index.html */
-
-.menu {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: -150px;
+    background-color: burlywood;
+  }
+  
+  .h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  .menu {
     width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    color: red; 
+    font-weight:bold;
 
-}
-
-
-/* Beholder */
-.beholder_img {
-    width: 300px;
-
-}
-
-/* Dragon */
-
-.dragon_img {
-    width: 300px;
-
-}
-
-
-/* Tarrasque */
-
-.tarrasque_img {
-    width: 300px;
-
-}
-
+  }
+  
+  a {
+    color: black; /* Set the desired color value */
+    font-weight: bold;
+    text-decoration:none; /* Optional: Removes underline from links */
+  }
+  
+  a:hover {
+    color: red; 
+  }
